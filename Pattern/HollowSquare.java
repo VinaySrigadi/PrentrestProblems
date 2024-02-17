@@ -8,7 +8,7 @@ public class    HollowSquare {
        Scanner sc = new Scanner(System.in);
        System.out.println("Enter Number Row");
        int row = sc.nextInt();
-       System.out.println("Enter Number Row");
+       System.out.println("Enter Number column");
        int  col = sc.nextInt();
 
        for(int i=1;i<= row;i++){
