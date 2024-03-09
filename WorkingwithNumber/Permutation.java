@@ -4,16 +4,12 @@ import java.util.Scanner.*;
 public  class Permutation{
 
     public static void main(String[] args){
-       perm obj1 = new perm();
-       
-    
-      
-
-    }
-class fatc{       
-       int n,r;
-       n=10;
-       r=3;
+       perm obj1 = new fact();
+       obj1.fatc();
+        int n = 10;
+       int r= 3;
+    //    n=10;
+    //    r=3;
             int fact = 1;
        while(n>1){
        int num = n;
@@ -24,30 +20,35 @@ class fatc{
         fact *= n;
         
 
-
-       }System.out.println(fact);
+    
+      
+    }
+    }
+class fatc{       
+      
+System.out.println(fact);
+       }
        // return fact;
 
 
 }
 
-class  perm extends fatc {
+// class  perm extends fatc {
 
-        int deno = fact.n-fact.r;
-        int denofact = 1;
+//         int deno = fact.n-fact.r;
+//         int denofact = 1;
 
-        while  (deno >= 1) {
-             obj1.denofact *=deno;
+//         while  (deno >= 1) {
+//              obj1.denofact *=deno;
 
-            perm.deno -=1;
+//             perm.deno -=1;
            
-           System.out.println(denofact);
-       //     return denofact;
-}
+//            System.out.println(denofact);
+//        //     return denofact;
+// }
 
      
 
-    }
-}
-                         
+    // }
+                     
 
