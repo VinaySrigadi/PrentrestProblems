@@ -11,7 +11,7 @@ import java.util.Scanner.*;
         int nums1[] = {0,1,2,2,3,0,4,2};
         int val = 2;
         int result = removeElement(nums1,val);
-        System.out.println(result);
+        System.out.println(" = "+result);
 
 
         }
@@ -24,6 +24,9 @@ import java.util.Scanner.*;
                 if(nums1[i] != val){
                 nums1[count] = nums1[i];
                 count++;
+                System.out.print(nums1[i]);
+
+                
                 }
             } return count;
 
