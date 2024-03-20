@@ -4,7 +4,7 @@ import java.util.Scanner.*;
 
         public static void main(String[] args){  
 
-            int nums1[] = {0,0,1,1,1,2,2,3,3,4};
+            int nums1[] = {0,0,1,1,1,2,2,3,3,4,4};
             int result = removeDuplicate(nums1);
             System.out.println("= "+result);
             for(int k=0;k < nums1.length;k++){
@@ -35,5 +35,17 @@ import java.util.Scanner.*;
         }return count;
         }
 
+        //wrong 
+// public static int removeDuplicate (int[] num1){
+//     int count = 0;
+
+//     for(int i = 0;i <num1.length-1;i++){
+//         if(num1[i] != num1[i+1]){
+//             count++;
+//         }
+//     }return count;
+
+
+// }
     
     }

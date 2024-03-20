@@ -12,6 +12,7 @@ import java.util.Scanner.*;
         int val = 2;
         int result = removeElement(nums1,val);
         System.out.println(" = "+result);
+         System.out.println(" = "+  Arrays.toString(nums1));
 
 
         }
